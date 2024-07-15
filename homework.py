@@ -2,7 +2,7 @@
 """ def remove_spaces(s):
     result = ""
     for char in s:
-        if char != " ":
+        if char != " ":w
             result += char
     return result
 s = "Hello World"
@@ -78,3 +78,34 @@ num2= 10
 num3=2
 largest_num = find_largest(num1,num2,num3)
 print(f"{largest_num}")"""
+
+#ques 7
+"""def find_largest(a,b,c,d):
+    if a> b :
+        if a > c:
+            if a >d:
+                largest= a
+            else:
+                largest= d
+        else:
+            if c >d :
+                largest= c 
+            else:
+                largest= d
+    else:
+        if b > c:
+            if b > d:
+                largest= b
+            else:
+                largest= d
+        else:
+            if c > d:
+                largest = c
+            else: 
+                largest = d
+    return largest
+
+a, b , c, d = 10 , 15, 20 , 25
+print(find_largest(a,b,c,d))"""
+
+#ques 8
