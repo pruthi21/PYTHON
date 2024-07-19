@@ -108,4 +108,12 @@ print(f"{largest_num}")"""
 a, b , c, d = 10 , 15, 20 , 25
 print(find_largest(a,b,c,d))"""
 
-#ques 8
+list1= ['a','b','c']
+multiply_list = [char * 3 for char in list1]
+print(multiply_list)
+
+original = [2,3,4,5]
+multiply_list = [num * 2 for num in original]
+print(multiply_list)
+
+
