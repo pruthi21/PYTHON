@@ -9,4 +9,3 @@ class intrestcal(ABC):
         pass
 
 class simpleintrest(intrestcal):
-    
